@@ -23,7 +23,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     int monNum;
-    
+
     do
     {
         // Запрос номера месяца
@@ -33,38 +33,29 @@ int main()
         // Обработка ввода (switch-case)
         switch (static_cast<seasons>(monNum))
         {
-            case seasons::Январь:    std::cout << "Январь\n"; break;
-            case seasons::Февраль:   std::cout << "Февраль\n"; break;
-            case seasons::Март:      std::cout << "Март\n"; break;
-            case seasons::Апрель:    std::cout << "Апрель\n"; break;
-            case seasons::Май:      std::cout << "Май\n"; break;
-            case seasons::Июнь:      std::cout << "Июнь\n"; break;
-            case seasons::Июль:     std::cout << "Июль\n"; break;
-            case seasons::Август:    std::cout << "Август\n"; break;
-            case seasons::Сентябрь: std::cout << "Сентябрь\n"; break;
-            case seasons::Октябрь:   std::cout << "Октябрь\n"; break;
-            case seasons::Ноябрь:    std::cout << "Ноябрь\n"; break;
-            case seasons::Декабрь:   std::cout << "Декабрь\n"; break;
+        case seasons::Январь:    std::cout << "Январь\n"; break;
+        case seasons::Февраль:   std::cout << "Февраль\n"; break;
+        case seasons::Март:      std::cout << "Март\n"; break;
+        case seasons::Апрель:    std::cout << "Апрель\n"; break;
+        case seasons::Май:      std::cout << "Май\n"; break;
+        case seasons::Июнь:      std::cout << "Июнь\n"; break;
+        case seasons::Июль:     std::cout << "Июль\n"; break;
+        case seasons::Август:    std::cout << "Август\n"; break;
+        case seasons::Сентябрь: std::cout << "Сентябрь\n"; break;
+        case seasons::Октябрь:   std::cout << "Октябрь\n"; break;
+        case seasons::Ноябрь:    std::cout << "Ноябрь\n"; break;
+        case seasons::Декабрь:   std::cout << "Декабрь\n"; break;
         default:
             if (monNum != 0)
             {
                 std::cout << "Неправильный номер!\n";
             }
+
             break;
         }
+    } while (monNum != 0);
     {
-       
+        std::cout << "До свидания!\n";
     }
-
 }
-
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
+    
