@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Excercise2.Accounts.cpp",
               "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u043E\\Desktop\\\u0422\u0432\u043E\u0440\u0447\u0435\u0441\u0442\u0432\u043E\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0421\u002B\u002B\\ExcercisesModule4\\Excercise2.Accounts\\Excercise2.Accounts\\Excercise2.Accounts.cpp",
               "RelativeDocumentMoniker": "Excercise2.Accounts\\Excercise2.Accounts.cpp",
-              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u043E\\Desktop\\\u0422\u0432\u043E\u0440\u0447\u0435\u0441\u0442\u0432\u043E\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0421\u002B\u002B\\ExcercisesModule4\\Excercise2.Accounts\\Excercise2.Accounts\\Excercise2.Accounts.cpp",
-              "RelativeToolTip": "Excercise2.Accounts\\Excercise2.Accounts.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u043E\\Desktop\\\u0422\u0432\u043E\u0440\u0447\u0435\u0441\u0442\u0432\u043E\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0421\u002B\u002B\\ExcercisesModule4\\Excercise2.Accounts\\Excercise2.Accounts\\Excercise2.Accounts.cpp*",
+              "RelativeToolTip": "Excercise2.Accounts\\Excercise2.Accounts.cpp*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-30T09:38:51.505Z",
               "EditorCaption": ""
